@@ -1,9 +1,14 @@
 [tool.poetry]
 name = "data-cleaner"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Streamlit app for file cleaning and conversion"
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 package-mode = false
-requires-python = ">=3.12"
-dependencies = []
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+streamlit = "^1.33.0"
+pandas = "^2.2.0"
+numpy = "^1.26.0"
+xlsxwriter = "^3.2.0"
